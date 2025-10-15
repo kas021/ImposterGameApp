@@ -1,65 +1,94 @@
+<div align="center">
+
+<img src="https://user-gen-media-assets.s3.amazonaws.com/seedream_images/cb3d7829-2e91-4e95-bb1e-33208511d01c.png" alt="Imposter App Icon" width="180" height="180">
+
 # Imposter
 
-A simple, offline party game for your mobile device. Pass the phone, find the imposter, and don't get voted out!
+### *The Ultimate Offline Party Game for iOS*
 
-![Imposter Gameplay Screenshot](https://i.imgur.com/gDqJd6k.png)
+**Pass the phone. Find the imposter. Don't get voted out.**
 
-## What is Imposter?
+</div>
 
-Imposter is a mobile party game designed for a single phone, perfect for groups of friends and family. Players secretly receive a role: either a "Civilian" who gets a secret word, or an "Imposter" who is left in the dark. The goal is simple: the civilians must work together to identify and vote out the imposters, while the imposters must blend in and survive.
+---
 
-All gameplay happens offline on one device, making it the perfect game for road trips, waiting in line, or any time you want to have some fun without needing an internet connection.
+## 🎭 What is Imposter?
 
-## Key Features
+Imposter is a thrilling social deduction game designed for a single iPhone, perfect for groups of friends and family. Players secretly receive a role: either a **Civilian** who gets a secret word, or an **Imposter** who is left in the dark. The goal? Civilians must work together to identify and vote out the imposters, while the imposters must blend in and survive.
 
-*   **Fully Offline:** No internet connection required. Play it anywhere, anytime.
-*   **Single Device Gameplay:** All you need is one phone for a whole group to play.
-*   **Customizable Word Pool:** Add your own inside jokes, themed words, or anything you can think of to make the game your own.
-*   **Adaptive Imposter Selection:** A smart, built-in algorithm ensures fairness. It tracks recent games to prevent the same players from being chosen as the imposter too often, making each round feel fresh and unpredictable.
-*   **Sleek, Themable UI:** A clean, modern interface with multiple color themes to choose from.
+All gameplay happens offline on one device—making it the perfect game for road trips, waiting in line, or any time you want to have fun without needing an internet connection.
 
-## How to Play
+## ✨ Key Features
 
-1.  **Setup:** The first player sets the number of players and imposters.
-2.  **Reveal:** Each player taps the screen to privately view their role. If you're a civilian, you'll see the secret word. If you're an imposter, you'll just see "IMPOSTER".
-3.  **Discuss:** Once everyone has their role, the discussion begins! Players talk about the word, trying to prove they know what it is without giving it away. Imposters must pretend they know the word and blend in.
-4.  **Vote:** After the discussion, players vote on who they think the imposter is.
-5.  **Win:** The civilians win if they successfully vote out all the imposters. The imposters win if they survive long enough to outnumber the civilians.
+* **🔌 Fully Offline:** No internet connection required. Play it anywhere, anytime.
+* **📱 Single Device Gameplay:** Pass one phone around—no need for multiple devices.
+* **👥 Flexible Player Count:** Works with groups of 3-12 players.
+* **🎨 Clean, Modern Interface:** Beautiful iOS design optimized for iPhone.
+* **⚡ Quick Setup:** Start a game in seconds with customizable settings.
+* **🎯 Strategic Gameplay:** Bluffing, deduction, and social interaction at its best.
 
-## Local Development Setup
+## 🎮 How to Play
 
-This project is a standard React web application. To run it locally, follow these steps:
+1. **Setup:** Choose the number of players and imposters
+2. **Pass the Phone:** Each player views their role secretly
+3. **Discussion Round:** Players ask questions and share clues about the secret word
+4. **Vote:** Identify and vote out suspected imposters
+5. **Win:** Civilians win by eliminating all imposters; imposters win by surviving
 
-1.  **Clone the repository:**
-    ```bash
-    git clone https://github.com/your-username/imposter.git
-    cd imposter
-    ```
+## 🛠️ Local Development Setup
 
-2.  **Install dependencies:**
-    You can use either `npm` or `yarn`.
-    ```bash
-    npm install
-    # or
-    yarn install
-    ```
+### Prerequisites
+- Xcode 14.0 or later
+- iOS 15.0+ deployment target
+- Swift 5.0+
 
-3.  **Run the development server:**
-    This will start a local server, and you can open the provided URL in your browser.
-    ```bash
-    npm run dev
-    # or
-    yarn dev
-    ```
-
-## Building for Production
-
-To create a static, production-ready build of the application, run the following command:
+### Installation
 
 ```bash
-npm run build
-# or
-yarn build
+# Clone the repository
+git clone https://github.com/kas021/IMPOSTER-GAME-APP-.git
+
+# Navigate to the project directory
+cd IMPOSTER-GAME-APP-
+
+# Open in Xcode
+open Imposter.xcodeproj
 ```
 
-This will generate a `dist` directory containing all the necessary HTML, CSS, and JavaScript files, which can be deployed to any static hosting service.
+### Running the App
+
+1. Open the project in Xcode
+2. Select your target device or simulator
+3. Press `Cmd + R` to build and run
+
+## 📦 Building for Production
+
+```bash
+# Archive the app for distribution
+xcodebuild archive -scheme Imposter -archivePath ./build/Imposter.xcarchive
+
+# Export the archive
+xcodebuild -exportArchive -archivePath ./build/Imposter.xcarchive -exportPath ./build -exportOptionsPlist ExportOptions.plist
+```
+
+## 🚀 Coming Soon to the App Store
+
+Imposter is currently in development and will be available on the iOS App Store soon!
+
+## 📄 License
+
+This project is available for personal and educational use.
+
+## 👨‍💻 Developer
+
+Created by [kas021](https://github.com/kas021)
+
+---
+
+<div align="center">
+
+**Ready to find the imposter?**
+
+Star ⭐ this repo if you're excited for the release!
+
+</div>
