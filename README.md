@@ -1,6 +1,5 @@
 <div align="center">
-
-<img src="https://user-gen-media-assets.s3.amazonaws.com/seedream_images/cb3d7829-2e91-4e95-bb1e-33208511d01c.png" alt="Imposter App Icon" width="180" height="180">
+  <img src="https://user-gen-media-assets.s3.amazonaws.com/seedream_images/cb3d7829-2e91-4e95-bb1e-33208511d01c.png" alt="Imposter App Icon" width="180" height="180">
 
 # Imposter
 
@@ -12,22 +11,22 @@
 
 ---
 
-## 🎭 What is Imposter?
+## What is Imposter?
 
 Imposter is a thrilling social deduction game designed for a single iPhone, perfect for groups of friends and family. Players secretly receive a role: either a **Civilian** who gets a secret word, or an **Imposter** who is left in the dark. The goal? Civilians must work together to identify and vote out the imposters, while the imposters must blend in and survive.
 
 All gameplay happens offline on one device—making it the perfect game for road trips, waiting in line, or any time you want to have fun without needing an internet connection.
 
-## ✨ Key Features
+## Key Features
 
-* **🔌 Fully Offline:** No internet connection required. Play it anywhere, anytime.
-* **📱 Single Device Gameplay:** Pass one phone around—no need for multiple devices.
-* **👥 Flexible Player Count:** Works with groups of 3-12 players.
-* **🎨 Clean, Modern Interface:** Beautiful iOS design optimized for iPhone.
-* **⚡ Quick Setup:** Start a game in seconds with customizable settings.
-* **🎯 Strategic Gameplay:** Bluffing, deduction, and social interaction at its best.
+* **Fully Offline:** No internet connection required. Play it anywhere, anytime.
+* **Single Device Gameplay:** Pass one phone around—no need for multiple devices.
+* **Flexible Player Count:** Works with groups of 3-12 players.
+* **Clean, Modern Interface:** Beautiful iOS design optimized for iPhone.
+* **Quick Setup:** Start a game in seconds with customizable settings.
+* **Strategic Gameplay:** Bluffing, deduction, and social interaction at its best.
 
-## 🎮 How to Play
+## How to Play
 
 1. **Setup:** Choose the number of players and imposters
 2. **Pass the Phone:** Each player views their role secretly
@@ -35,9 +34,10 @@ All gameplay happens offline on one device—making it the perfect game for road
 4. **Vote:** Identify and vote out suspected imposters
 5. **Win:** Civilians win by eliminating all imposters; imposters win by surviving
 
-## 🛠️ Local Development Setup
+## Local Development Setup
 
 ### Prerequisites
+
 - Xcode 14.0 or later
 - iOS 15.0+ deployment target
 - Swift 5.0+
@@ -61,7 +61,7 @@ open Imposter.xcodeproj
 2. Select your target device or simulator
 3. Press `Cmd + R` to build and run
 
-## 📦 Building for Production
+## Building for Production
 
 ```bash
 # Archive the app for distribution
@@ -71,15 +71,15 @@ xcodebuild archive -scheme Imposter -archivePath ./build/Imposter.xcarchive
 xcodebuild -exportArchive -archivePath ./build/Imposter.xcarchive -exportPath ./build -exportOptionsPlist ExportOptions.plist
 ```
 
-## 🚀 Coming Soon to the App Store
+## Coming Soon to the App Store
 
 Imposter is currently in development and will be available on the iOS App Store soon!
 
-## 📄 License
+## License
 
 This project is available for personal and educational use.
 
-## 👨‍💻 Developer
+## Developer
 
 Created by [kas021](https://github.com/kas021)
 
@@ -89,6 +89,6 @@ Created by [kas021](https://github.com/kas021)
 
 **Ready to find the imposter?**
 
-Star ⭐ this repo if you're excited for the release!
+Star this repo if you're excited for the release!
 
 </div>
