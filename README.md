@@ -7,6 +7,8 @@
 
 # Imposter
 
+🔄 **Official organization mirror:** [https://github.com/Synthetiq-HQ/ImposterGameApp](https://github.com/Synthetiq-HQ/ImposterGameApp)
+
 ### *The Ultimate Offline Party Game*
 
 **Pass the phone. Find the imposter. Don't get voted out.**
