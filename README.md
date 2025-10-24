@@ -9,6 +9,22 @@
 
 🔄 **Official organization mirror:** [https://github.com/Synthetiq-HQ/ImposterGameApp](https://github.com/Synthetiq-HQ/ImposterGameApp)
 
+## iOS App Status 🚧
+
+**Important:**  
+At this moment, this repository only contains the **web app version** of Imposter. The iOS app is currently in development – we're working through licensing and App Store requirements.
+
+**What's coming soon:**
+- The iOS app will be released under the open-source Synthetiq organisation: [Synthetiq-HQ/ImposterGameApp](https://github.com/Synthetiq-HQ/ImposterGameApp)
+- Once ready, the iOS **IPA file** will be published here for direct, free download; anyone will be free to sideload, modify, and use it as their own app.
+- After App Store approvals, the iOS app will be publicly accessible for free.  
+- The project is strictly **open source**: users and developers are encouraged to contribute or fork.
+
+**For now:**  
+Only the web app is available in this repo. Keep an eye out for updates – iOS is launching very soon!
+
+---
+
 ### *The Ultimate Offline Party Game*
 
 **Pass the phone. Find the imposter. Don't get voted out.**
