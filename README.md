@@ -1,8 +1,6 @@
 <div align="center">
-  <img src="https://user-gen-media-assets.s3.amazonaws.com/seedream_images/cb3d7829-2e91-4e95-bb1e-33208511d01c.png" alt="Imposter App Icon" width="180" height="180">
-  <img src="attached_image:1" alt="New Imposter App Icon" width="180" height="180">
-
-# Imposter
+![Impostor Game App Icon](impostor-app-icon.png)
+  
 
 🔄 **Official organization mirror:** [https://github.com/Synthetiq-HQ/ImposterGameApp](https://github.com/Synthetiq-HQ/ImposterGameApp)
 
